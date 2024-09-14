@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/originals/57/49/83/574983a1664839445cbc80a0932b8a31.gif");
+  text-align: center;
+  cursor: url("foto1.png")25 25, auto;
+}
+
+h1 {
+  color: #000000
+}
+
+p {
+  color: #000fff;
+  font-size: 20px;
+}
+
+#score {
+  font-size: 20px;
+  color: #0f0f0f;
+}
+
+button {
+  cursor: url("foto2.png")32 32, auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  position: absolute;
+  color: white;
+  background: linear-gradient(to right,
+      violet, indigo, blue, green, yellow, orange, red);
+  /* Gradiente de arco-íris */
+  border: none;
+  border-radius: 5px;
+  animation: blinkGradient 1s infinite alternate;
+  /* Adicionando animação de piscar */
+}
+
+@keyframes blinkGradient {
+  0% {
+    opacity: 1;
+    /* Opacidade total */
+  }
+
+  50% {
+    opacity: 0.5;
+    /* Opacidade reduzida pela metade */
+  }
+
+  100% {
+    opacity: 1;
+    /* Opacidade total novamente */
+  }
+}
+
+
+#timer {
+  font-size: 20px;
+  color: #000;
+}
+
+#countdown {
+  font-size: 20px;
+  color: #00ffff;
+}
